@@ -3,7 +3,7 @@ public class Getteri {
 
 	public static void main(String[] args) {
 		
-		Kukka kukka = new Kukka(1,20,"punainen");
+		Kukka kukka = new Kukka(2,25,"punainen");
 		kukka.tulostaTiedot();
 		kukka.kasva();
 		System.out.println("Uusi koko: " + kukka.getKoko() + " cm");
